@@ -1,0 +1,17 @@
+@import './colors.css';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 20px;
+}
+
+.fcc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@import './button.css';

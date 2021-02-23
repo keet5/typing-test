@@ -1,0 +1,20 @@
+button {
+  border: none;
+  padding: 7px 16px;
+  border-radius: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  transition: 200ms;
+  border-bottom: 5px solid var(--green-dark);
+  background-color: var(--green-middle);
+  color: white;
+}
+
+button:hover {
+  filter: brightness(1.1);
+}
+
+button:active {
+  border: none;
+}
